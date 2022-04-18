@@ -67,7 +67,7 @@ h1 {
     font-weight: 450;
 }
 
-h2 {
+h2  {
     color: rgba(0, 0, 0, 0.829);
     font-family: Montserrat;
     font-weight: 500;
@@ -78,7 +78,7 @@ p {
 
     font-family: Ovo;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 0.9412rem;
     color: #222;
 
 }
@@ -87,7 +87,7 @@ td {
 
     font-family: Ovo;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 0.9412rem;
     color: #222;
 
 }
@@ -139,7 +139,7 @@ ul {
 .footText {
 
     color: white;
-    font-size: 10px;
+    font-size: 0.5882;
 
 }
 
@@ -151,14 +151,18 @@ ul {
    
     div {
         
-        margin-bottom: 10px;
-        margin-right: 20px;
-        margin-left: 20px;
+        margin-top: 15px;
+        margin-right: 2px;
+        margin-left: 5px;
         padding-right: 3px;
     }
 
     h1 {
-        margin-top: 115px;
+        margin-top: 80px;
+    }
+
+    h2 {
+        margin-top: -10px;
     }
     
     .navbar{
@@ -174,6 +178,39 @@ ul {
             
         }
 
+        div#table {
+            margin-left: 0px;
+            padding-left: 0px;
+            margin-right: 0px;
+        }
+
+        .place-table.col-sm-12 {
+            padding-left: 0px;
+            margin-left: 0px;
+        }
+
+        .time-table.col-sm-12 {
+            margin-left: 0px;
+            margin-right: 0px;
+            padding: 0px;
+        }
+        .row.hideTable.table-hide-symbol.p-3 {
+            margin-right: 5px;
+            margin-top: -20px;
+        }
+
+        .direction-table.col-sm-12 {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        div#table3 {
+            margin-left: -1px;
+        }
+
+        .row.hideTable.table-hide-symbol {
+            margin-right: 7px;
+        }
 }
 
 @media screen and (min-width: 661px) {
