@@ -14,7 +14,7 @@ div {
 .container-fluid .collapse {
     margin-bottom: 10px;
     margin-right: 110px;
-    margin-left: 0px;
+   
 }
 
 .socialNet {
@@ -211,6 +211,11 @@ ul {
         .row.hideTable.table-hide-symbol {
             margin-right: 7px;
         }
+        .navbar-collapse {
+           
+            margin-left: 0px;
+        }
+        
 }
 
 @media screen and (min-width: 661px) {
