@@ -178,14 +178,16 @@ ul {
         background-color: rgb(83, 78, 78);
         width: 100%;
     }
-    .offset:before { 
+
+    /* removed in favour of using html { scroll-padding-top: 125px; } for small screens 
+/*    .offset:before { 
         display: block; 
          content: " "; 
           height: 100px;      /* Give height of your fixed element */
-            margin-top: -20px; /* Give negative margin of your fixed element */  	
-            visibility: hidden;
+/*            margin-top: -20px; /* Give negative margin of your fixed element */  	
+ /*           visibility: hidden;
             
-        }
+        } */
 
         div#table {
             margin-left: 0px;
@@ -238,4 +240,9 @@ ul {
         display:none;
     }
 }
-    
+/* added to correct the view accounting for sticky header, 
+reduces gap between divs, less whitespace */
+
+@media screen and (max-width: 360px) {
+html { scroll-padding-top: 87px; }
+}
