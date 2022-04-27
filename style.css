@@ -229,6 +229,28 @@ ul {
            
             margin-left: 0px;
         }
+
+        html { 
+            scroll-padding-top: 87px; 
+        }
+        .time-symbol{
+            margin-right: 5px;
+            }
+        
+        .place-symbol{
+            margin-right: 1px;
+            }
+        
+        .direction-symbol{
+            margin-right: 13px;
+        }
+        h3{
+            color: white;
+            margin-right: 30%;
+            }
+        .navbar>.container-fluid{
+            flex-direction: row-reverse;
+            }
         
 }
 
@@ -246,26 +268,3 @@ ul {
 /* added to correct the view accounting for sticky header, 
 reduces gap between divs, less whitespace */
 
-@media screen and (max-width: 360px) {
-html { 
-    scroll-padding-top: 87px; 
-}
-.time-symbol{
-    margin-right: 5px;
-    }
-
-.place-symbol{
-    margin-right: 1px;
-    }
-
-.direction-symbol{
-    margin-right: 13px;
-}
-h3{
-    color: white;
-    margin-right: 30%;
-    }
-.navbar>.container-fluid{
-    flex-direction: row-reverse;
-    }
-}
